@@ -11,6 +11,7 @@ jobs:
   build:
     name: Build
     runs-on: ubuntu-18.04
+    environment: github-pages
 
     container:
       image: 'ghcr.io/void-linux/xbps-src-masterdir:20210313rc01-${{ matrix.config.bootstrap }}'
