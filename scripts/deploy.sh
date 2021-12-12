@@ -7,11 +7,11 @@
 set -e
 
 REPONAME="void-templates"
-OWNER="ram02z"
+OWNER="zunixorn"
 GHIO="${OWNER}.github.io"
 URL="https://${GHIO}/${REPONAME}"
 TARGET_BRANCH="gh-pages"
-EMAIL="omarzeghouanii@gmail.com"
+EMAIL="dev@jonascrull.de"
 BUILD_DIR="void-packages/hostdir/binpkgs"
 case "$ARCH" in
     *musl* ) LIBC="musl" ;;
