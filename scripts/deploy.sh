@@ -76,8 +76,7 @@ ls -la $LIBC
 echo "$PRIVATE_PEM" > $HOME/private.pem
 echo "$PRIVATE_PEM_PUB" > $HOME/private.pem.pub
 
-echo "$PRIVATE_PEM" | wc -c
-echo "$PRIVATE_PEM_PUB" | wc -c
+wc -c < $HOME/private.pem
 
 xbps-rindex --add $LIBC/*.xbps
 xbps-rindex --privkey $HOME/private.pem --sign --signedby "Jonas Crull <$EMAIL>" $LIBC
