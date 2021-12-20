@@ -18,3 +18,5 @@ To add repository:
 ```
 
 > where $LIBC is either musl or glibc
+
+`ssh-keygen -t rsa -b 4096 -m PEM -f privkey.pem`
