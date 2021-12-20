@@ -1,4 +1,4 @@
-# Template file for 'battop'x
+# Template file for 'battop'
 pkgname=battop
 version=0.2.5
 revision=1
